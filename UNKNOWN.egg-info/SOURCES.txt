@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+UNKNOWN.egg-info/PKG-INFO
+UNKNOWN.egg-info/SOURCES.txt
+UNKNOWN.egg-info/dependency_links.txt
+UNKNOWN.egg-info/top_level.txt
+genbank_data_code/modules/modular_code.py
+genbank_data_code/utils/__init__.py
+genbank_data_code/utils/entrez_efetch.py
+genbank_data_code/utils/main.py

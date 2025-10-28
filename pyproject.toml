@@ -1,0 +1,32 @@
+[project]
+name = "genbank_data_code"
+version = "0.0.1"
+description = "Code that downloads data about a Genbank sequence from "
+license = {file = "LICENSE.txt"}
+authors = [{name = "Rachel Wellman", email = "rachel.wellman@nhs.net"}]
+readme = "README.md"
+keywords = [
+    "bioinformatics",
+    "Genbank",
+]
+requires-python = ">=3.11"
+
+classifiers = [
+    "Programming Language :: Python :: 3.11"
+]
+
+# Load dependencies
+dependencies = [
+  
+]
+
+
+[tool.setuptools_scm]
+
+[tool.setuptools.packages.find]
+where = ["."]  # Look for packages in the 'root' directory
+include = ["genbank_da_code*"]
+
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2", "wheel"]
+build-backend = "setuptools.build_meta"
