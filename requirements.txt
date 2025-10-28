@@ -2,6 +2,5 @@ certifi==2025.10.5
 charset-normalizer==3.4.4
 idna==3.11
 requests==2.32.5
-#-e git+https://github.com/rachellw/genbank_data_retrieval.git@faf3f8c13a9e987c6c4eb30412eefdda710ea3c1#egg=UNKNOWN
 urllib3==2.1
 xmltodict==1.0.2
